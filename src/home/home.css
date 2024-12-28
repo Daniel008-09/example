@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+
+ .container{
+  width: 1320px;
+  margin: 0 auto;
+ }
+ 
+ .home {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .home-banner {
+    padding: 2rem;
+    background-image: url('../images/me.jpg');
+    background-size: (100% 500px);
+    height: 1080px;
+   
+  }
+#zna{
+  font-size: 20px;
+}
+
+  #ac{
+    font-size: 75px;
+    width: 1138px;
+  }
+  
+  .header h1 {
+    color: #006400;
+    margin-bottom: 1rem;
+
+  }
+  
+  .header p {
+    margin-bottom: 1.5rem;
+    color: #006400;
+  }
+
+  
+  .news, .events, .history, .gallery {
+    padding: 2rem;
+  }
+  
+  .news h2,  .history h2, .gallery h2 {
+    text-align: center;
+    color: #006400;
+  }
+  
+  .news-grid,.gallery-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .event-card {
+    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    align-items: center; 
+    margin: 20px 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 740px;
+  }
+  
+  .event-image {
+    width: 307px; 
+    height: auto;
+    object-fit: cover; 
+  }
+  
+  .event-content {
+    padding: 15px;
+    flex: 1; 
+  }
+  
+  .event-content h3 {
+    margin: 0 0 10px;
+    font-size: 1.2rem;
+  }
+  
+  .event-content p {
+    margin: 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+
+  .news-card, .event-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+  .news-image, .gallery-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .news-card h3, h3 {
+    margin: 0.5rem;
+    color: #333;
+  }
+  
+  .news-card p,p {
+    margin: 0.5rem;
+    font-size: 0.9rem;
+  }
+  
+  .date {
+    display: block;
+    text-align: right;
+    padding: 0.5rem;
+    color: #666;
+    font-size: 0.8rem;
+  }
+  
+  .view-all {
+    display: block;
+    text-align: right;
+    margin-top: 1rem;
+    color: #006400;
+    text-decoration: none;
+  }
+  
+  .view-all:hover {
+    text-decoration: underline;
+  }
+  
+  .history p {
+    text-align: justify;
+    margin: 1rem 0;
+  }
+  
+  .read-more {
+    color: #006400;
+    text-decoration: none;
+  }
+  
+  .read-more:hover {
+    text-decoration: underline;
+  }
+  
+  .gallery-grid {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;  
+  }
+  
+  .gallery-image {
+    max-width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
